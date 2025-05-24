@@ -2,3 +2,29 @@
     max-width: 100%;
     padding: 0 1rem;
 }
+
+.md-main {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - var(--md-header-height));
+}
+
+.md-content {
+    flex: 1;
+}
+
+.md-content__inner {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.md-typeset {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.md-typeset> :last-child {
+    margin-top: auto;
+}
