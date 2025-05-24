@@ -45,6 +45,7 @@ repo_name: PSModule/${{ REPO_NAME }}
 repo_url: https://github.com/PSModule/${{ REPO_NAME }}
 
 plugins:
+  - blog
   - search
   - git-authors
   - git-revision-date-localized:
