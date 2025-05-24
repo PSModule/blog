@@ -32,6 +32,8 @@ theme:
         name: Switch to system preference
   icon:
     repo: material/github
+    edit: material/pencil
+    view: material/eye
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -41,6 +43,7 @@ theme:
     - navigation.tracking
     - search.suggest
     - search.highlight
+    - content.action.edit
 
 repo_name: PSModule/Blog
 repo_url: https://github.com/PSModule/Blog
