@@ -1,18 +1,4 @@
-/* Make the site container full width */
 .md-grid {
-    max-width: 100%;
-}
-
-/* Adjust sidebars to align to far left and far right */
-.md-sidebar--primary {
-    left: 0;
-}
-
-.md-sidebar--secondary {
-    right: 0;
-}
-
-/* Ensure the main content fully utilizes available width */
-.md-content {
     max-width: none;
+    padding: 0 1rem;
 }
