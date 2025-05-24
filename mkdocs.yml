@@ -5,8 +5,8 @@ theme:
   font:
     text: Roboto
     code: Sono
-  logo: assets/icon.png
-  favicon: assets/icon.png
+  logo: icon/icon.png
+  favicon: icon/favicon.png
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"

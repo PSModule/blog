@@ -16,13 +16,13 @@ concurrency:
 
 env:
   GH_TOKEN: ${{ github.token }}
+permissions:
+  contents: write
+  pages: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read # to checkout the repo
-      pages: write   # to deploy to Pages
     steps:
       - uses: actions/checkout@v4
         with:
