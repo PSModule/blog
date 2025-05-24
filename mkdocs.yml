@@ -78,3 +78,6 @@ extra:
     actions:
       - accept
       - reject
+
+extra_css:
+  - stylesheets/extra.css
