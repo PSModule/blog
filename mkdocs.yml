@@ -1,4 +1,5 @@
 site_name: PSModule Blog
+site_url: https://psmodule.github.io/Blog
 theme:
   name: material
   language: en
