@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - blog/**
+      - docs/**
       - mkdocs.yml
       - .github/workflows/Blog.yml
 
