@@ -6,6 +6,9 @@ authors:
   - MariusStorhaug
 categories:
   - test
+tags:
+  - Foo
+  - Bar
 ---
 
 # Test blog post
