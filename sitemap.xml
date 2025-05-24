@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://psmodule.github.io/Blog/2024/01/31/test-blog-post/</loc>
+         <lastmod>2025-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://psmodule.github.io/Blog/</loc>
+         <lastmod>2025-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://psmodule.github.io/Blog/archive/2024/</loc>
+         <lastmod>2025-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://psmodule.github.io/Blog/category/test/</loc>
+         <lastmod>2025-05-24</lastmod>
+    </url>
 </urlset>
