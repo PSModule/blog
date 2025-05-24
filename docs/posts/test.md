@@ -1,9 +1,11 @@
 ---
 date:
   created: 2024-01-31
-  updated: 2024-02-01
+  updated: 2024-01-31
 authors:
   - MariusStorhaug
+categories:
+  - test
 ---
 
 # Test blog post

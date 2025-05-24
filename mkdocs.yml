@@ -9,7 +9,7 @@ theme:
   favicon: icon/favicon.png
   palette:
     # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
+    - media: '(prefers-color-scheme)'
       toggle:
         icon: material/link
         name: Switch to dark mode
@@ -45,12 +45,19 @@ repo_name: PSModule/Blog
 repo_url: https://github.com/PSModule/Blog
 
 plugins:
-  - blog
+  - blog:
+      blog_dir: .
   - search
   - git-authors
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - test
 
 markdown_extensions:
   - toc:
