@@ -22,6 +22,8 @@ jobs:
       pages: write   # to deploy to Pages
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history for all branches and tags
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
