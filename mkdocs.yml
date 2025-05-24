@@ -47,15 +47,18 @@ repo_url: https://github.com/PSModule/Blog
 plugins:
   - blog:
       blog_dir: .
+      blog_toc: true
+  - social
   - search
   - git-authors
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
   - rss:
-      match_path: blog/posts/.*
+      match_path: posts/.*
       date_from_meta:
-        as_creation: date
+        as_creation: date.created
+        as_update: date.updated
       categories:
         - test
 
